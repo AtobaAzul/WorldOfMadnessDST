@@ -1,0 +1,12 @@
+RANDOM_ISLANDS_WORLDGEN_CHANCE = 0.33
+
+RANDOM_ISLANDS_MAINLAND_CHANCE = 0.1
+RANDOM_ISLANDS_MAX_ISLANDS = 12
+RANDOM_ISLANDS_MAX_SIZE = 1
+
+-- Tasks that spawn in the mainland
+RANDOM_ISLANDS_MAINLAND = {
+    "Make a pick",
+    "Dig that rock",
+    "Squeltch"
+}
