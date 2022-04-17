@@ -2,7 +2,7 @@
 -- Mod Info
 ------------------------------
 name = "󰀕 World of Madness"
-author = "Lecernawx"
+author = "Lecernawx, Atobá Azul"
 version = "3.16.8"
 
 description = [[󰀏 Version ]] .. version .. [[
