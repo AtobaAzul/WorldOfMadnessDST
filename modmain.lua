@@ -97,11 +97,6 @@ if GetModConfigData("ApplyBugFixes") == true then
     -- Fixes ghosts not being able to float over cliffs in caves
     modimport("bugfixes/ghosts_float_in_caves.lua")
 
-    if IsFeastAndFamineModEnabled() then
-        -- There is a nil function reference in OnDeployPinecone
-        modimport("bugfixes/faf_awardplayerachievement.lua")
-    end
-
     -- The deadly flag isn't persisted by default
     if IsBlackDeathModEnabled() then
         modimport("bugfixes/black_death_save_deadly_flag.lua")
