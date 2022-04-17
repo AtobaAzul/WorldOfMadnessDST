@@ -18,16 +18,5 @@ if IsWorldGenPhase() then
     
     if IsUncompromisingModeEnabled() and GetModConfigData("UncompromisingSpiderRebalance") ~= "DISABLED" then
         modimport("features/uncompromising_trapdoor_rebalance/worldgen/init.lua")
-    end
-
-    -- Bug Fixes
-    if GetModConfigData("ApplyBugFixes") == true then
-
-        if IsBlackDeathModEnabled() and IsUncompromisingModeEnabled() then
-            -- Fixes a crash caused by Uncompromising Mode's worldgen
-            modimport("bugfixes/worldgen/black_death_uncompromising_tiddlelab.lua")
-        end
-
-    end
-    
+    end    
 end
